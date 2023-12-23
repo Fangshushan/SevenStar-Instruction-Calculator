@@ -16,7 +16,6 @@ if __name__ == '__main__':
             continue
         finite.Input_Machine(code)
         formul.execute(Token.tokenState,finite.Get_receiverList())
-        # print(formul.child[code_count])
         excute.execute(formul.child[code_count])
         code_count+=1
         if(code == 'exit()'): break
